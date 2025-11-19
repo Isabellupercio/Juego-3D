@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d4958c2b640214b86f6155c79862d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallController
-  rb: {fileID: 164139541}
+  rb: {fileID: 0}
   impulseForce: 3
 --- !u!1 &330585543
 GameObject:
@@ -418,12 +418,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aedd9225b567c64f984bc9c3adae652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamController
-  ball: {fileID: 164139542}
+  ball: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +679,6 @@ GameObject:
   - component: {fileID: 1972410594}
   - component: {fileID: 1972410593}
   - component: {fileID: 1972410592}
-  - component: {fileID: 1972410596}
   m_Layer: 0
   m_Name: Helix
   m_TagString: Untagged
@@ -783,18 +782,6 @@ Transform:
   - {fileID: 432963462}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1972410596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972410591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acf8503ae0f5ae040b97ba0836a4a128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HelixController
 --- !u!1001 &5742224176782816687
 PrefabInstance:
   m_ObjectHideFlags: 0
