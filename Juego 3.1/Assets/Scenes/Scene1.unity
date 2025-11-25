@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallController
   rb: {fileID: 164139541}
+  ballRenderer: {fileID: 0}
   impulseForce: 3
 --- !u!1 &330585543
 GameObject:
@@ -1107,6 +1108,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 924006853}
   m_SourcePrefab: {fileID: 100100000, guid: ab9f2bce1132b5a499600d19b57dd368, type: 3}
+--- !u!1 &1600881624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8478326888909921959, guid: ab9f2bce1132b5a499600d19b57dd368, type: 3}
+  m_PrefabInstance: {fileID: 1278219541}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1612517821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +1313,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ui
   currentScoreText: {fileID: 1762035919}
   bestScoreText: {fileID: 1024294720}
+--- !u!4 &1780666223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8169842737926042812, guid: 0f05c3ac15762724db2b01fbe0de75bd, type: 3}
+  m_PrefabInstance: {fileID: 4052518680482850279}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1972410591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1447,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf8503ae0f5ae040b97ba0836a4a128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HelixController
+  topTransform: {fileID: 763906801}
+  goalTransform: {fileID: 1780666223}
+  helixLevelPrefab: {fileID: 1600881624}
+  allStages:
+  - {fileID: 11400000, guid: c6e117d8ff0238d46bed5807eee92813, type: 2}
+  helixDistance: 0
 --- !u!4 &979373884598807265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 889778409363231566, guid: 0f05c3ac15762724db2b01fbe0de75bd, type: 3}

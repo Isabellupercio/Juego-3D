@@ -4,6 +4,7 @@ public class BallController : MonoBehaviour
 {
     
     public Rigidbody rb;
+    public Renderer ballRenderer;
     public float impulseForce = 3f;
 
     private bool ignoreNextCollision;
